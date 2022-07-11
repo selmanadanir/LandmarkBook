@@ -18,6 +18,7 @@
 		B3D8E3A6287BF02800427055 /* stonehange.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B3D8E3A1287BF02800427055 /* stonehange.jpeg */; };
 		B3D8E3A7287BF02800427055 /* taj-mahal.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B3D8E3A2287BF02800427055 /* taj-mahal.jpeg */; };
 		B3D8E3A8287BF02800427055 /* kremlin.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B3D8E3A3287BF02800427055 /* kremlin.jpeg */; };
+		B3D8E3AA287C156900427055 /* imageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D8E3A9287C156900427055 /* imageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		B3D8E3A1287BF02800427055 /* stonehange.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = stonehange.jpeg; sourceTree = "<group>"; };
 		B3D8E3A2287BF02800427055 /* taj-mahal.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "taj-mahal.jpeg"; sourceTree = "<group>"; };
 		B3D8E3A3287BF02800427055 /* kremlin.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kremlin.jpeg; sourceTree = "<group>"; };
+		B3D8E3A9287C156900427055 /* imageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				B3D8E38B287BE9F800427055 /* AppDelegate.swift */,
 				B3D8E38D287BE9F800427055 /* SceneDelegate.swift */,
 				B3D8E38F287BE9F800427055 /* ViewController.swift */,
+				B3D8E3A9287C156900427055 /* imageViewController.swift */,
 				B3D8E391287BE9F800427055 /* Main.storyboard */,
 				B3D8E394287BE9F900427055 /* Assets.xcassets */,
 				B3D8E396287BE9F900427055 /* LaunchScreen.storyboard */,
@@ -160,6 +163,7 @@
 			files = (
 				B3D8E390287BE9F800427055 /* ViewController.swift in Sources */,
 				B3D8E38C287BE9F800427055 /* AppDelegate.swift in Sources */,
+				B3D8E3AA287C156900427055 /* imageViewController.swift in Sources */,
 				B3D8E38E287BE9F800427055 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

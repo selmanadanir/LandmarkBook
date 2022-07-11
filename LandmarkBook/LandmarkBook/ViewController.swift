@@ -22,6 +22,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     var landmarkNames = [String]()
     var landmarkImages = [UIImage]()
+    var chosenLandmarkNames = ""
+    var chosenLandmarkImages = UIImage()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -49,6 +51,23 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             landmarkNames.remove(at: indexPath.row)
             landmarkImages.remove(at: indexPath.row)
             tableView.deleteRows(at: [indexPath], with: UITableView.RowAnimation.automatic)
+        }
+    }
+    
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        chosenLandmarkNames = landmarkNames[indexPath.row]
+        chosenLandmarkImages = landmarkImages[indexPath.row]
+        
+        performSegue(withIdentifier: "toImageViewController", sender: nil)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "toImageViewController" {
+            let destinationVC = segue.destination as! imageViewController
+            destinationVC.selectedLandmarkName = chosenLandmarkNames
+            destinationVC.selectedLandmarkImage = chosenLandmarkImages
         }
     }
     
