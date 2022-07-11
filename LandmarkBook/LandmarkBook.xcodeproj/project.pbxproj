@@ -13,6 +13,11 @@
 		B3D8E393287BE9F800427055 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3D8E391287BE9F800427055 /* Main.storyboard */; };
 		B3D8E395287BE9F900427055 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3D8E394287BE9F900427055 /* Assets.xcassets */; };
 		B3D8E398287BE9F900427055 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3D8E396287BE9F900427055 /* LaunchScreen.storyboard */; };
+		B3D8E3A4287BF02800427055 /* great-wall.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B3D8E39F287BF02700427055 /* great-wall.jpeg */; };
+		B3D8E3A5287BF02800427055 /* colosseum.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B3D8E3A0287BF02800427055 /* colosseum.jpeg */; };
+		B3D8E3A6287BF02800427055 /* stonehange.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B3D8E3A1287BF02800427055 /* stonehange.jpeg */; };
+		B3D8E3A7287BF02800427055 /* taj-mahal.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B3D8E3A2287BF02800427055 /* taj-mahal.jpeg */; };
+		B3D8E3A8287BF02800427055 /* kremlin.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B3D8E3A3287BF02800427055 /* kremlin.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		B3D8E394287BE9F900427055 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B3D8E397287BE9F900427055 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B3D8E399287BE9F900427055 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3D8E39F287BF02700427055 /* great-wall.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "great-wall.jpeg"; sourceTree = "<group>"; };
+		B3D8E3A0287BF02800427055 /* colosseum.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = colosseum.jpeg; sourceTree = "<group>"; };
+		B3D8E3A1287BF02800427055 /* stonehange.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = stonehange.jpeg; sourceTree = "<group>"; };
+		B3D8E3A2287BF02800427055 /* taj-mahal.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "taj-mahal.jpeg"; sourceTree = "<group>"; };
+		B3D8E3A3287BF02800427055 /* kremlin.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kremlin.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +73,11 @@
 				B3D8E394287BE9F900427055 /* Assets.xcassets */,
 				B3D8E396287BE9F900427055 /* LaunchScreen.storyboard */,
 				B3D8E399287BE9F900427055 /* Info.plist */,
+				B3D8E3A0287BF02800427055 /* colosseum.jpeg */,
+				B3D8E39F287BF02700427055 /* great-wall.jpeg */,
+				B3D8E3A3287BF02800427055 /* kremlin.jpeg */,
+				B3D8E3A1287BF02800427055 /* stonehange.jpeg */,
+				B3D8E3A2287BF02800427055 /* taj-mahal.jpeg */,
 			);
 			path = LandmarkBook;
 			sourceTree = "<group>";
@@ -126,8 +141,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				B3D8E398287BE9F900427055 /* LaunchScreen.storyboard in Resources */,
+				B3D8E3A5287BF02800427055 /* colosseum.jpeg in Resources */,
+				B3D8E3A8287BF02800427055 /* kremlin.jpeg in Resources */,
 				B3D8E395287BE9F900427055 /* Assets.xcassets in Resources */,
+				B3D8E3A6287BF02800427055 /* stonehange.jpeg in Resources */,
 				B3D8E393287BE9F800427055 /* Main.storyboard in Resources */,
+				B3D8E3A7287BF02800427055 /* taj-mahal.jpeg in Resources */,
+				B3D8E3A4287BF02800427055 /* great-wall.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
